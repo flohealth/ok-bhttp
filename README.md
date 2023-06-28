@@ -8,9 +8,17 @@ in [Oblivious HTTP](https://datatracker.ietf.org/doc/draft-ietf-ohai-ohttp/).
 
 ## Download
 
-You can download JAR artifacts from [GitHub Releases](https://github.com/flohealth/ok-bhttp/releases).
+#### Declare Gradle dependencies
 
-Maven artifacts are coming soon.
+```kotlin
+dependencies {
+    implementation("com.github.flohealth:ok-bhttp:0.1.0")
+}
+```
+
+#### Download artifacts
+
+You can download JAR artifacts from [GitHub Releases](https://github.com/flohealth/ok-bhttp/releases).
 
 ## Usage
 
